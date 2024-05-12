@@ -12,11 +12,14 @@ This repository contains the source code for a simple blogging platform API buil
 
 ## Setup Instructions
 
+
 ### Step 1: Clone the Repository
 
 Clone this repository to your local machine:
 
 ```bash git clone https://github.com/HarshRajGithub/FastAPI-Blogging-Platform.git cd fastapi-blog-api```
+
+
 
 
 ### Step 2: Create a Virtual Environment
@@ -37,11 +40,15 @@ Activate the virtual environment:
 ```bash source.venv/bin/activate```
 
 
+
+
 ### Step 3: Install Dependencies
 
 Install the required Python packages:
 
 ```bash pip install -r requirements.txt```
+
+
 
 
 ### Step 4: Configure MongoDB Connection
@@ -51,6 +58,8 @@ Create a `.env` file in the root of your project and add your MongoDB connection
 ```MONGO_URL=mongodb://user:password@host:port/database?options```
 
 Replace `user`, `password`, `host`, `port`, and `database` with your actual MongoDB credentials and details.
+
+
 
 ### Step 5: Run the API
 
